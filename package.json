@@ -1,0 +1,22 @@
+{
+  "name": "ar7id",
+  "version": "1.0.0",
+  "description": "Generate a Unique ID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apurboroy7077/AR7id.git"
+  },
+  "keywords": [
+    "ar7id"
+  ],
+  "author": "Apurbo Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apurboroy7077/AR7id/issues"
+  },
+  "homepage": "https://github.com/apurboroy7077/AR7id#readme"
+}
