@@ -90,14 +90,6 @@ let B = [
   "7",
   "8",
   "9",
-  "!",
-  "@",
-  "#",
-  "$",
-  "%",
-  "&",
-  "*",
-  "?",
 ];
 let f1 = () => {
   let index = Math.floor(Math.random() * A.length);
