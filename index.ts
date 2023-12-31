@@ -1,4 +1,4 @@
-let A = [
+const A: string[] = [
   "Q",
   "W",
   "E",
@@ -27,7 +27,7 @@ let A = [
   "M",
 ];
 
-let B = [
+const B: string[] = [
   "A",
   "B",
   "C",
@@ -91,22 +91,27 @@ let B = [
   "8",
   "9",
 ];
-let f1 = () => {
-  let index = Math.floor(Math.random() * A.length);
-  let value = A[index];
+
+const f1: () => string = () => {
+  const index: number = Math.floor(Math.random() * A.length);
+  const value: string = A[index];
   return value;
 };
-let f2 = () => {
-  let index = Math.floor(Math.random() * B.length);
-  let value = B[index];
+
+const f2: () => string = () => {
+  const index: number = Math.floor(Math.random() * B.length);
+  const value: string = B[index];
   return value;
 };
-let id = () => {
-  let id1 = f1() + f2() + f2() + f2() + f2() + f2() + f2() + f2() + f2() + f1();
+
+const id: () => string = () => {
+  const id1: string =
+    f1() + f2() + f2() + f2() + f2() + f2() + f2() + f2() + f2() + f1();
   return id1;
 };
-let AR7Id = () => {
-  let myId =
+
+const ar7id: () => string = () => {
+  const myId: string =
     id() +
     "-" +
     id() +
@@ -124,4 +129,5 @@ let AR7Id = () => {
     "AR7";
   return myId;
 };
-module.exports = AR7Id;
+
+export default ar7id;
